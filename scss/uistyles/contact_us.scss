@@ -85,9 +85,10 @@ body {
         border-left: $secondory-color solid 2px;
     }
     .lottie {
-        justify-content: center;
         .lottie-all-div {
-            width: 200px;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
             height: 200px;
         }
     }
