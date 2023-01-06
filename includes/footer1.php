@@ -11,7 +11,7 @@
 <body>
 
     <footer>
-        <h1 class="logo"><a href="../php UI/index.php"><img src="../images/logo.png" alt="">PD Chanelling</a></h1>
+        <h1 class="logo"><a href="../php UI/index.php"><img src="../images/logo.png" alt="">PD Channelling</a></h1>
         <ul>
             <li><a class="a1" href="../php UI/add_appointments.php">Add Appointments</a></li>
             <li><a class="a1" href="../php UI/view_appointments.php">View Appointments</a></li>
@@ -20,7 +20,7 @@
             <li><a class="a1" href="">Log In</a></li>
             <li><a class="a1" href="">Sign Up</a></li>
         </ul>
-        <p class="copyright">&COPY; 2023 OPD Chanelling All Right Reserved.</p>
+        <p class="copyright">&COPY; 2023 OPD Channelling All Right Reserved.</p>
     </footer>
 
 </body>

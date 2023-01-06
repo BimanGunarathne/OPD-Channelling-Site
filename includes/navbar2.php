@@ -15,7 +15,7 @@
 <body>
     <div class="container">
         <nav class="nav" id="mynav">
-            <h1 class="logo"><a href="../php UI/index.php"><img src="../images/logo.png" alt="">PD Chanelling</a></h1>
+            <h1 class="logo"><a href="../php UI/index.php"><img src="../images/logo.png" alt="">PD Channelling</a></h1>
             <ul>
                 <li>
                     <div class="dropdown">

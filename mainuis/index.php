@@ -15,7 +15,7 @@
         <div class="container1">
             <div class="showcase-content">
                 <div class="description">
-                    <h1>Welcome to OPD Chanelling Service</h1>
+                    <h1>Welcome to OPD Channelling Service</h1>
                     <p class="description2">
                         First, you have to register by entering the correct details. Next, you can log in by entering your username and password. After you log in, you can go to the add appointments page. Then first you have to choose the hospital. After that, you can choose the doctor then set a date before clicking add appointment button.
                     </p>
