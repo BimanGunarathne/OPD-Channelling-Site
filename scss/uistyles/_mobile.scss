@@ -1,0 +1,18 @@
+@media (max-width: 800px) {
+    .showcase {
+        margin: 0;
+        padding: 0;
+        .container1 {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            .showcase-content {
+                flex-wrap: wrap;
+                .description {
+                    width: 100%;
+                    padding: 30px;
+                }
+            }
+        }
+    }
+}
