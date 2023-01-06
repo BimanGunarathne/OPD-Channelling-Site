@@ -67,6 +67,12 @@ body {
             line-height: 1.2;
         }
     }
+    &-content {
+        .lottie-player {
+            width: 100%;
+            height: 700px;
+        }
+    }
 }
 
 .small-div-container {
@@ -80,6 +86,10 @@ body {
     }
     .lottie {
         justify-content: center;
+        .lottie-all-div {
+            width: 200px;
+            height: 200px;
+        }
     }
     .small_div_1 {
         width: 100%;
@@ -101,5 +111,4 @@ body {
     }
 }
 
-@import "utilities";
 @import "mobile";

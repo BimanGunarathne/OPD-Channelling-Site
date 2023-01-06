@@ -24,14 +24,14 @@
                     <textarea class="inputs" placeholder="Messege"></textarea>
                     <a class="btn-primary" href="../php UI/contact_us.php">Contact Us</a>
                 </div>
-                <img src="../images/casual-life-3d-young-woman-in-headphones-sitting-in-front-of-laptop-and-waving.png" alt="">
+                <lottie-player class="lottie-player" src="https://assets2.lottiefiles.com/packages/lf20_ycMTbuzn9e.json" background="transparent" speed="1" autoplay></lottie-player>
             </div>
         </div>
     </header>
     <div class="small-div-container">
         <div class="small_div_1">
             <div class="lottie">
-                <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_Yd38lY.json" background="transparent" speed="1" style="width: 200px; height: 200px;" hover autoplay></lottie-player>
+                <lottie-player class="lottie-all-div" src="https://assets1.lottiefiles.com/packages/lf20_Yd38lY.json" background="transparent" speed="1" hover autoplay></lottie-player>
             </div>
             <p class="big_font">Address</p>
             <p class="p_font">No.84/18A, Koongahawatta,<br>Kotikawatta Road, Gothatuwa</p>
@@ -39,7 +39,7 @@
         <div class="line"></div>
         <div class="small_div_2">
             <div class="lottie">
-                <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_t05opzok.json" background="transparent" speed="1" style="width: 200px; height: 200px;" hover autoplay></lottie-player>
+                <lottie-player class="lottie-all-div" src="https://assets10.lottiefiles.com/packages/lf20_t05opzok.json" background="transparent" speed="1" hover autoplay></lottie-player>
             </div>
             <p class="big_font">Email</p>
             <p class="p_font">contact@opdechanneling.lk</p>
@@ -47,7 +47,7 @@
         <div class="line"></div>
         <div class="small_div_3">
             <div class="lottie">
-                <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_ctwz0ajo.json" background="transparent" speed="1" style="width: 200px; height: 200px;" hover autoplay></lottie-player>
+                <lottie-player class="lottie-all-div" src="https://assets6.lottiefiles.com/private_files/lf30_ctwz0ajo.json" background="transparent" speed="1" hover autoplay></lottie-player>
             </div>
             <p class="big_font">Telephone</p>
             <p class="p_font">+94 112233445 - Hed Office</p>
