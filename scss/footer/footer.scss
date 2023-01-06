@@ -1,7 +1,4 @@
-$primery-color: #ffffff;
-$secondory-color: #000000;
-$font-stack: "Comfortaa",
-cursive;
+@import "../uistyles/config";
 * {
     margin: 0;
     padding: 0;
