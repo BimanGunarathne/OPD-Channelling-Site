@@ -13,9 +13,9 @@
     <footer>
         <h1 class="logo"><a href="../php UI/index.php"><img src="../images/logo.png" alt="">PD Chanelling</a></h1>
         <ul>
-            <li><a class="a1" href="../php UI/add_appointments.php">Add Appointments</a></li>
-            <li><a class="a1" href="../php UI/view_appointments.php">View Appointments</a></li>
-            <li><a class="a1" href="../php UI/manage_appointments.php">Manage Appointments</a></li>
+            <li><a class="a1" href="../php UI/add_appointments.php">Manage Administrators</a></li>
+            <li><a class="a1" href="../php UI/view_appointments.php">Mange Doctors</a></li>
+            <li><a class="a1" href="../php UI/manage_appointments.php">Manage Patients</a></li>
             <li><a class="a1" href="">Contact Us</a></li>
             <li><a class="a1" href="">Log In</a></li>
             <li><a class="a1" href="">Sign Up</a></li>

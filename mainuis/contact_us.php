@@ -53,7 +53,7 @@
             <p class="p_font">+94 112233445 - Hed Office</p>
         </div>
     </div>
-    <?php include '../includes/footer.php' ?>
+    <?php include '../includes/footer1.php' ?>
 </body>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 

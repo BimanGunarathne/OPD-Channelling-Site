@@ -25,7 +25,7 @@
             </div>
         </div>
     </header>
-    <?php include '../includes/footer.php' ?>
+    <?php include '../includes/footer1.php' ?>
 </body>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@1.5.7/dist/lottie-player.js"></script>
 <script src="/node_modules/@lottiefiles/lottie-player/dist/lottie-player.js"></script>
