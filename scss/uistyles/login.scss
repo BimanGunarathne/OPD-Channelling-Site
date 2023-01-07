@@ -1,8 +1,8 @@
 @import "config";
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,26 +11,26 @@ body {
     line-height: 1.6;
 }
 
+.buttons {
+    color: $secondory-color;
+}
+
 .showcase {
-    img {
-        width: 100%;
-    }
     .showcase-content {
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 70px;
+        margin-bottom: 70px;
         .description {
-            padding: 100px;
             .inputs {
-                width: 95%;
+                width: 80%;
                 padding: 12px 20px;
                 margin: 8px 0;
                 display: inline-block;
                 border: solid 1px $secondory-color;
-                border-radius: 5px;
+                border-radius: 4px;
                 box-sizing: border-box;
                 font-family: $font-stack;
             }
@@ -39,14 +39,50 @@ body {
                 font-size: 16px;
                 line-height: 1.4;
             }
-            .btn-primery {
-                margin: 30px;
+            .btn-prymery {
+                width: 80%;
+                margin-top: 20px;
+                text-align: center;
                 display: inline-block;
                 border: solid 2.5px $secondory-color;
                 border-radius: 35px;
                 background-color: $secondory-color;
                 color: $primery-color;
-                padding: 10px 25px;
+                padding: 5px 20px;
+                &:hover {
+                    background-color: $primery-color;
+                    color: $secondory-color;
+                }
+            }
+            .btn-secondory {
+                width: 80%;
+                margin-top: 20px;
+                text-align: center;
+                display: inline-block;
+                border: solid 2.5px $secondory-color;
+                border-radius: 35px;
+                background-color: $secondory-color;
+                color: $primery-color;
+                padding: 5px 20px;
+                &:hover {
+                    background-color: $primery-color;
+                    color: $secondory-color;
+                }
+            }
+            p {
+                width: 80%;
+                text-align: center;
+            }
+            .btn-google {
+                width: 80%;
+                margin-top: 10px;
+                text-align: center;
+                display: inline-block;
+                border: solid 2.5px $secondory-color;
+                border-radius: 35px;
+                background-color: $secondory-color;
+                color: $primery-color;
+                padding: 5px 20px;
                 &:hover {
                     background-color: $primery-color;
                     color: $secondory-color;
@@ -55,12 +91,10 @@ body {
         }
         .description {
             width: 50%;
-            margin-top: 20px;
-        }
-        img {
-            width: 50%;
+            padding-left: 150px;
         }
         h1 {
+            margin-bottom: 20px;
             font-size: 50px;
             line-height: 1.2;
         }
@@ -72,5 +106,3 @@ body {
         }
     }
 }
-
-@import "mobile";
