@@ -15,6 +15,12 @@ body {
     color: $secondory-color;
 }
 
+.google {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
 .showcase {
     .showcase-content {
         height: 100%;
@@ -24,8 +30,37 @@ body {
         margin-top: 70px;
         margin-bottom: 70px;
         .description {
+            .p1 {
+                margin-bottom: 30px;
+            }
+            .btn-google {
+                height: 50px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                border: solid 2.5px $secondory-color;
+                border-radius: 35px;
+                background-color: $secondory-color;
+                color: $primery-color;
+                padding: 5px 20px;
+                &:hover {
+                    background-color: $primery-color;
+                    color: $secondory-color;
+                }
+            }
+            .por {
+                margin-top: 40px;
+                margin-bottom: 40px;
+                text-align: center;
+                border-bottom: 1px solid $third-color;
+                line-height: 0.1em;
+                span {
+                    background: $primery-color;
+                    padding: 0 20px;
+                }
+            }
             .inputs {
-                width: 80%;
+                width: 100%;
                 padding: 12px 20px;
                 margin: 8px 0;
                 display: inline-block;
@@ -34,16 +69,22 @@ body {
                 box-sizing: border-box;
                 font-family: $font-stack;
             }
-            .p_font {
-                font-family: $font-stack;
-                font-size: 16px;
-                line-height: 1.4;
+            .i1 {
+                margin-bottom: 20px;
+            }
+            .fp {
+                text-decoration: underline;
+                color: $secondory-color;
+                &:hover {
+                    color: rgb(153, 0, 255);
+                }
             }
             .btn-prymery {
-                width: 80%;
-                margin-top: 20px;
-                text-align: center;
-                display: inline-block;
+                height: 50px;
+                margin-top: 30px;
+                align-items: center;
+                justify-content: center;
+                display: flex;
                 border: solid 2.5px $secondory-color;
                 border-radius: 35px;
                 background-color: $secondory-color;
@@ -54,44 +95,19 @@ body {
                     color: $secondory-color;
                 }
             }
-            .btn-secondory {
-                width: 80%;
-                margin-top: 20px;
-                text-align: center;
-                display: inline-block;
-                border: solid 2.5px $secondory-color;
-                border-radius: 35px;
-                background-color: $secondory-color;
-                color: $primery-color;
-                padding: 5px 20px;
-                &:hover {
-                    background-color: $primery-color;
-                    color: $secondory-color;
-                }
-            }
-            p {
-                width: 80%;
+            .p2 {
+                margin-top: 30px;
                 text-align: center;
             }
-            .btn-google {
-                width: 80%;
-                margin-top: 10px;
-                text-align: center;
-                display: inline-block;
-                border: solid 2.5px $secondory-color;
-                border-radius: 35px;
-                background-color: $secondory-color;
-                color: $primery-color;
-                padding: 5px 20px;
+            .signup {
+                color: rgb(153, 0, 255);
                 &:hover {
-                    background-color: $primery-color;
                     color: $secondory-color;
                 }
             }
         }
         .description {
-            width: 50%;
-            padding-left: 150px;
+            padding: 100px;
         }
         h1 {
             margin-bottom: 20px;
@@ -106,3 +122,5 @@ body {
         }
     }
 }
+
+@import "mobile";

@@ -19,49 +19,45 @@ img {
 }
 
 .showcase {
-    .container1 {
+    .showcase-content {
         width: 100%;
-        padding: 0 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         overflow: hidden;
-        margin: 0 auto;
-        .showcase-content {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    &-content {
+        .lottie-player {
             width: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
+            height: 700px;
         }
-        &-content {
-            .lottie-player {
-                width: 100%;
-                height: 900px;
+    }
+    .description {
+        width: 100%;
+        height: auto;
+        padding-left: 150px;
+        .btn-primary {
+            margin-top: 30px;
+            display: inline-block;
+            border: solid 2.5px $secondory-color;
+            border-radius: 35px;
+            background-color: $secondory-color;
+            color: $primery-color;
+            padding: 10px 25px;
+            &:hover {
+                background-color: $primery-color;
+                color: $secondory-color;
             }
         }
-        .description {
-            width: 100%;
-            height: auto;
-            padding: 100px;
-            .btn-primary {
-                margin-top: 30px;
-                display: inline-block;
-                border: solid 2.5px $secondory-color;
-                border-radius: 35px;
-                background-color: $secondory-color;
-                color: $primery-color;
-                padding: 10px 25px;
-                &:hover {
-                    background-color: $primery-color;
-                    color: $secondory-color;
-                }
-            }
-        }
-        .description2 {
-            margin-top: 20px;
-        }
-        h1 {
-            font-size: 50px;
-            line-height: 1.2;
-        }
+    }
+    .description2 {
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 1.2;
     }
 }
 
