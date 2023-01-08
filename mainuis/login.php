@@ -19,7 +19,7 @@
                     <p class="p1">Welcome! Please fill the details</p>
                     <a class="buttons btn-google" href=""><img class="google" src="../images/icons8-google-48.png" alt="google">Signup with Google</a>
                     <p class="por"><span> or</span></p>
-                    <input class="inputs" type="text" placeholder="Username or Email" value="">
+                    <input class="inputs" type="text email" placeholder="Username or Email" value="">
                     <input class="i1 inputs" type="password" placeholder="Password" value="">
                     <a class="fp" href="">Forgot Password?</a>
                     <a class="buttons btn-prymery" href="">Log In</a>

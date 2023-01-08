@@ -20,7 +20,7 @@
                     <a class="buttons btn-google" href=""><img class="google" src="../images/icons8-google-48.png" alt="google">Signup with Google</a>
                     <p class="por"><span> or</span></p>
                     <input class="inputs" type="text" placeholder="Username" value="">
-                    <input class="inputs" type="text" placeholder="Email" value="">
+                    <input class="inputs" type="email" placeholder="Email" value="">
                     <input class="il inputs" type="password" placeholder="Password" value="">
                     <input class="i1 inputs" type="password" placeholder="Retype Password" value="">
                     <a class="buttons btn-prymery" href="">Sign Up</a>
