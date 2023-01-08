@@ -16,9 +16,9 @@
             <li><a class="a1" href="../php UI/add_appointments.php">Add Appointments</a></li>
             <li><a class="a1" href="../php UI/view_appointments.php">View Appointments</a></li>
             <li><a class="a1" href="../php UI/manage_appointments.php">Manage Appointments</a></li>
-            <li><a class="a1" href="">Contact Us</a></li>
-            <li><a class="a1" href="">Log In</a></li>
-            <li><a class="a1" href="">Sign Up</a></li>
+            <li><a class="a1" href="../mainuis/contact_us.php">Contact Us</a></li>
+            <li><a class="a1" href="../mainuis/login.php">Log In</a></li>
+            <li><a class="a1" href="../mainuis/signup.php">Sign Up</a></li>
         </ul>
         <p class="copyright">&COPY; 2023 OPD Channelling All Right Reserved.</p>
     </footer>

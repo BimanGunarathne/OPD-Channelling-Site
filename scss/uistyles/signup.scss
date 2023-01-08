@@ -33,7 +33,7 @@ body {
         margin-right: 100px;
         .description {
             .p1 {
-                margin-bottom: 30px;
+                margin-bottom: 10px;
             }
             .btn-google {
                 height: 50px;
@@ -51,8 +51,8 @@ body {
                 }
             }
             .por {
-                margin-top: 40px;
-                margin-bottom: 40px;
+                margin-top: 30px;
+                margin-bottom: 30px;
                 text-align: center;
                 border-bottom: 1px solid $third-color;
                 line-height: 0.1em;
@@ -72,7 +72,7 @@ body {
                 font-family: $font-stack;
             }
             .i1 {
-                margin-bottom: 20px;
+                margin-bottom: 10px;
             }
             .fp {
                 text-decoration: underline;
@@ -83,7 +83,7 @@ body {
             }
             .btn-prymery {
                 height: 50px;
-                margin-top: 30px;
+                margin-top: 20px;
                 align-items: center;
                 justify-content: center;
                 display: flex;
@@ -98,7 +98,7 @@ body {
                 }
             }
             .p2 {
-                margin-top: 30px;
+                margin-top: 20px;
                 text-align: center;
             }
             .signup {
@@ -121,6 +121,7 @@ body {
         .lottie-player {
             width: 50%;
             height: 700px;
+            padding-right: 100px;
         }
     }
 }
