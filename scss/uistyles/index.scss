@@ -21,12 +21,11 @@ img {
 .showcase {
     .showcase-content {
         width: 100%;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
         overflow: hidden;
-        margin-top: 70px;
-        margin-bottom: 70px;
     }
     &-content {
         .lottie-player {

@@ -13,15 +13,14 @@ body {
 
 .showcase {
     .showcase-content {
-        height: 100%;
+        height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 70px;
-        margin-bottom: 70px;
+        margin: 0 100px;
         .description {
             .inputs {
-                width: 95%;
+                width: 100%;
                 padding: 12px 20px;
                 margin: 8px 0;
                 display: inline-block;
@@ -51,14 +50,15 @@ body {
             }
         }
         .description {
-            padding-left: 150px;
+            padding: 0 100px;
             width: 50%;
         }
         img {
             width: 50%;
         }
         h1 {
-            font-size: 50px;
+            font-size: 40px;
+            margin-bottom: 20px;
             line-height: 1.2;
         }
     }
