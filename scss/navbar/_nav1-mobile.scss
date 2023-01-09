@@ -25,6 +25,19 @@
     }
 }
 
+@media screen and (max-width: 375px) {
+    .container {
+        nav {
+            .logo {
+                font-size: 15px;
+                img {
+                    width: 11px;
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 840px) {
     .container {
         .nav.responsive {
