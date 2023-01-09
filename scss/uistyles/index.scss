@@ -1,7 +1,4 @@
-$primery-color: #ffffff;
-$secondory-color: #000000;
-$font-stack: "Comfortaa",
-cursive;
+@import "../uistyles/config";
 * {
     box-sizing: border-box;
     margin: 0;
@@ -15,49 +12,95 @@ body {
 }
 
 img {
-    width: 100%;
+    width: auto;
+    height: 200px;
 }
 
-.showcase {
-    .showcase-content {
+td {
+    height: 50px;
+    padding: 30px 60px;
+}
+
+.td-img {
+    padding: 0 60px;
+}
+
+tr {
+    border-bottom: 1px solid $secondory-color;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
         width: 100%;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-    }
-    &-content {
-        .lottie-player {
-            width: 100%;
-            height: 700px;
+        padding: 0 400px;
+        text-align: center;
+        margin: 50px;
+        h1 {
+            margin-bottom: 20px;
         }
-    }
-    .description {
-        width: 100%;
-        height: auto;
-        padding-left: 150px;
-        .btn-primary {
-            margin-top: 30px;
-            display: inline-block;
-            border: solid 2.5px $secondory-color;
-            border-radius: 35px;
-            background-color: $secondory-color;
-            color: $primery-color;
-            padding: 10px 25px;
-            &:hover {
-                background-color: $primery-color;
-                color: $secondory-color;
+        .search-container {
+            position: relative;
+            .search {
+                width: 100%;
+                overflow: hidden;
+                padding: 15px 20px;
+                margin: 8px 0;
+                border: solid 2px $secondory-color;
+                border-radius: 100px;
+                box-sizing: border-box;
+                font-size: 15px;
+                line-height: 1;
+            }
+            .search-button {
+                cursor: pointer;
+                position: absolute;
+                width: 10%;
+                right: 7px;
+                top: 14px;
+                bottom: 14px;
+                border: 0;
+                background: $secondory-color;
+                outline: none;
+                margin: 0;
+                color: $primery-color;
+                padding-top: 0;
+                border-radius: 100px;
+                z-index: 1;
+                .icon {
+                    width: 30px;
+                    height: 30px;
+                }
             }
         }
     }
-    .description2 {
-        margin-top: 20px;
-    }
-    h1 {
-        font-size: 50px;
-        line-height: 1.2;
-    }
 }
 
-@import "mobile";
+.table-content {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+        .add-button {
+            width: 100%;
+            font-family: inherit;
+            background: $secondory-color;
+            color: $primery-color;
+            padding: 10px 20px;
+            border-radius: 50px;
+            &:hover {
+                cursor: pointer;
+                background: $primery-color;
+                color: $secondory-color;
+                border: 2px solid $secondory-color;
+            }
+        }
+    }
+}

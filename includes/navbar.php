@@ -15,10 +15,12 @@
 <body>
     <div class="container">
         <nav class="nav" id="mynav">
-            <h1 class="logo"><a href="../php UI/index.php"><img src="../images/logo.png" alt="">PD Channelling</a></h1>
+            <h1 class="logo"><a href="../mainuis/index.php"><img src="../images/logo.png" alt="">PD Channelling</a></h1>
             <ul>
+                <li><a class="a1 a2" href="../mainuis/index.php">Home</a></li>
                 <li>
                     <div class="dropdown">
+
                         <button class="dropbtn">Appointments<i class="fa fa-caret-down"></i></button>
                         <div class="dropdown-content">
                             <a class="a1 a2" href="../php UI/add_appointments.php">Add Appointments</a>

@@ -11,25 +11,57 @@
 
 <body>
     <?php include '../includes/navbar.php' ?>
-    <header class="showcase">
-        <div class="container1">
-            <div class="showcase-content">
-                <div class="description">
-                    <h1>Welcome to OPD Channelling Service</h1>
-                    <p class="description2">
-                        First, you have to log in the website. Next, you can log in by entering your username and password. After you log in, you can go to the add appointments page. Then first you have to choose the hospital. After that, you can choose the doctor then set a date before clicking add appointment button.
-                    </p>
-                    <a class="btn-primary" href="../php UI/contact_us.php">Contact Us</a>
-                </div>
-                <lottie-player class="lottie-player" src="https://assets7.lottiefiles.com/packages/lf20_ibbakwps.json" background="transparent" speed="1" loop autoplay></lottie-player>
+    <header>
+        <?php include '../includes/main.php' ?>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h1>Find your Doctors and Hospitals</h1>
+            <div class="search-container">
+                <input class="search" type="search" placeholder="Search Doctors & Hospitals">
+                <button class="search-button" type="submit"><lord-icon class="icon" src="https://cdn.lordicon.com/xfftupfv.json" trigger="hover" colors="primary:#ffffff">
+                    </lord-icon></button>
             </div>
         </div>
-    </header>
+    </div>
+    <div class="table-content">
+        <table>
+            <tr>
+                <td>
+                    <h1>Name</h1>
+                    <h2>Position</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto quaerat itaque unde quas reprehenderit, illo odit ullam quod quam. Ipsum sunt dolorum ipsam atque dolores quisquam fuga laudantium blanditiis.</p>
+                </td>
+                <td><button class="add-button" type="submit">Add Appointment</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Name</h1>
+                    <h2>Position</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto quaerat itaque unde quas reprehenderit, illo odit ullam quod quam. Ipsum sunt dolorum ipsam atque dolores quisquam fuga laudantium blanditiis.</p>
+                </td>
+                <td><button class="add-button" type="submit">Add Appointment</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Name</h1>
+                    <h2>Address</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto quaerat itaque unde quas reprehenderit, illo odit ullam quod quam. Ipsum sunt dolorum ipsam atque dolores quisquam fuga laudantium blanditiis.</p>
+                </td>
+                <td><button class="add-button" type="submit">Add Appointment</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <h1>Name</h1>
+                    <h2>Position</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto quaerat itaque unde quas reprehenderit, illo odit ullam quod quam. Ipsum sunt dolorum ipsam atque dolores quisquam fuga laudantium blanditiis.</p>
+                </td>
+                <td><button class="add-button" type="submit">Add Appointment</button></td>
+            </tr>
+        </table>
+    </div>
     <?php include '../includes/footer1.php' ?>
 </body>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@1.5.7/dist/lottie-player.js"></script>
-<script src="/node_modules/@lottiefiles/lottie-player/dist/lottie-player.js"></script>
-<script src="https://unpkg.com/@lottiefiles/lottie-player@0.4.0/dist/tgs-player.js"></script>
-<script src="/node_modules/@lottiefiles/lottie-player/dist/tgs-player.js"></script>
+<script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
 
 </html>
