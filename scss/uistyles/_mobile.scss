@@ -53,3 +53,13 @@
         }
     }
 }
+
+@media (max-width:1463px) {
+    .container {
+        width: 100%;
+        .content {
+            margin: 0;
+            padding: 0;
+        }
+    }
+}
