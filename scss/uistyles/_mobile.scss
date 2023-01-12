@@ -8,14 +8,16 @@
                 margin: 0;
                 flex-wrap: wrap;
                 .description {
+                    margin-top: 30px;
+                    margin-bottom: 30px;
                     width: 100%;
                     padding: 30px;
+                    h1 {
+                        font-size: 30px;
+                    }
                 }
-            }
-            &-content {
                 .lottie-player {
-                    margin: 0;
-                    padding: 0;
+                    display: none;
                 }
             }
         }
@@ -54,12 +56,27 @@
     }
 }
 
-@media (max-width:1463px) {
+@media (max-width: 1463px) {
     .container {
         width: 100%;
         .content {
-            margin: 0;
+            margin: 0 50px;
             padding: 0;
+            h1 {
+                font-size: 25px;
+            }
+            .search-container {
+                .search-button {
+                    width: 15%;
+                }
+            }
+        }
+    }
+    .table-content {
+        table {
+            tr {
+                display: block;
+            }
         }
     }
 }

@@ -1,6 +1,7 @@
 @media screen and (max-width: 941px) {
     .container {
         nav {
+            height: 50px;
             .logo {
                 font-size: 16px;
                 img {
@@ -29,9 +30,22 @@
     .container {
         nav {
             .logo {
-                font-size: 15px;
+                font-size: 11px;
                 img {
-                    width: 11px;
+                    width: 9px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        nav {
+            .logo {
+                font-size: 11px;
+                img {
+                    width: 9px;
                 }
             }
         }
