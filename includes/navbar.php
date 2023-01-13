@@ -23,7 +23,7 @@
 
                         <button class="dropbtn">Appointments<i class="fa fa-caret-down"></i></button>
                         <div class="dropdown-content">
-                            <a class="a1 a2" href="../php UI/add_appointments.php">Add Appointments</a>
+                            <a class="a1 a2" href="../mainuis/add_appointments.php">Add Appointments</a>
                             <a class="a1 a2" href="../php UI/view_appointments.php">View Appointments</a>
                             <a class="a1 a2" href="../php UI/manage_appointments.php">Manage Appointments</a>
                         </div>
