@@ -1,0 +1,72 @@
+@import "config";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $primery-color;
+    font-family: $font-stack;
+    line-height: 1.6;
+}
+
+.section1 {
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px;
+    .main {
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .section-content {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+        button {
+            margin-top: 10px;
+            display: inline-block;
+            border: solid 2.5px $secondory-color;
+            background-color: $secondory-color;
+            color: $primery-color;
+            padding: 10px 25px;
+            &:hover {
+                background-color: $primery-color;
+                color: $secondory-color;
+            }
+        }
+        .appintment-form {
+            padding: 50px;
+            input {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                border: solid 1px $secondory-color;
+                border-radius: 4px;
+                font-family: $font-stack;
+            }
+            select {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                border: solid 1px $secondory-color;
+                border-radius: 4px;
+                font-family: $font-stack;
+            }
+        }
+        .details {
+            padding: 50px;
+            .d-details {
+                margin-bottom: 25px;
+            }
+            .h-details {
+                margin-top: 25px
+            }
+        }
+    }
+}
+
+@import 'mobile';
