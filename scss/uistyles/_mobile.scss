@@ -115,3 +115,98 @@
         }
     }
 }
+
+@media (max-width: 1150px) {
+    .user_container {
+        margin: 0;
+        .name {
+            height: auto;
+            display: block;
+            text-align: center;
+            .username {
+                width: 100%;
+            }
+            .image {
+                width: 100%;
+                padding-bottom: 0;
+                img {
+                    float: none;
+                }
+            }
+        }
+    }
+    .container_section {
+        display: block;
+        margin: 0;
+        .user_details {
+            width: 100%;
+            align-items: center;
+        }
+        .appointment {
+            width: 100%;
+            align-items: center;
+            .detail_box {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+            }
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .user_container {
+        margin: 0;
+        h2 {
+            font-size: 20px;
+            text-align: center;
+        }
+        h3 {
+            font-size: 15px;
+        }
+        .position {
+            text-align: left;
+        }
+        .name {
+            height: auto;
+            display: block;
+            text-align: center;
+            .username {
+                width: 100%;
+            }
+            .image {
+                width: 100%;
+                padding-bottom: 0;
+                img {
+                    width: 100px;
+                    height: 100px;
+                    float: none;
+                }
+            }
+        }
+    }
+    .container_section {
+        display: block;
+        margin: 0;
+        .user_details {
+            width: 100%;
+            align-items: center;
+            .buttons {
+                display: block;
+                .button_class2 {
+                    margin-left: 0;
+                }
+            }
+        }
+        .appointment {
+            width: 100%;
+            align-items: center;
+            padding: 5px;
+            .detail_box {
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+            }
+        }
+    }
+}

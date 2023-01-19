@@ -11,6 +11,14 @@ body {
     line-height: 1.6;
 }
 
+td {
+    padding: 10px 20px;
+}
+
+tr {
+    border-bottom: 1px solid $secondory-color;
+}
+
 .user_container {
     height: auto;
     align-items: center;
@@ -39,7 +47,7 @@ body {
     }
 }
 
-.containe_section {
+.container_section {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -97,6 +105,10 @@ body {
                 color: $secondory-color;
             }
         }
+        .red_buttion {
+            border: solid 2.5px #ff7961;
+            background-color: #ff7961;
+        }
     }
     .appointment {
         width: 50%;
@@ -106,7 +118,8 @@ body {
         }
         .detail_box {
             width: 100%;
-            height: auto;
+            height: 450px;
+            overflow: auto;
             .table-content {
                 width: 100%;
                 align-items: center;
@@ -143,5 +156,15 @@ body {
                 }
             }
         }
+        .detail_box::-webkit-scrollbar {
+            width: 10px;
+            background-color: $primery-color;
+        }
+        .detail_box::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background-color: $secondory-color;
+        }
     }
 }
+
+@import "mobile";

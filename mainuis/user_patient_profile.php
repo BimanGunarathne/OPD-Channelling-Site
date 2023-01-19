@@ -20,7 +20,7 @@
                 <img src="../images/My Image.jpg" alt="Profile Image">
             </div>
         </div>
-        <div class="containe_section">
+        <div class="container_section">
             <div class="user_details">
                 <div class="space">
                     <h3>E-Mail:</h3>
@@ -46,10 +46,10 @@
                     <h3>Password:</h3>
                     <input type="password" name="password" placeholder="Passowrd">
                 </div>
-                <div class="space">
+                <div class="space buttons">
                     <button class="button_class">Save</button>
-                    <button class="button_class2">Update</button>
-                    <button class="button_class2">Delete</button>
+                    <button class="button_class2">Change</button>
+                    <button class="button_class2 red_buttion">Log Out</button>
                 </div>
             </div>
             <div class="appointment">
@@ -59,6 +59,14 @@
                 <div class="detail_box">
                     <div class="table-content">
                         <table>
+                            <tr>
+                                <td>
+                                    <h1>Name</h1>
+                                    <h2 class="position">Position</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto quaerat itaque unde quas reprehenderit, illo odit ullam quod quam. Ipsum sunt dolorum ipsam atque dolores quisquam fuga laudantium blanditiis.</p>
+                                </td>
+                                <td><button class="add-button" type="submit">View Appointment</button></td>
+                            </tr>
                             <tr>
                                 <td>
                                     <h1>Name</h1>
