@@ -29,6 +29,8 @@
                         </div>
                     </div>
                 </li>
+                <li><a class="a1 a2" href="../mainuis/doctors.php">Doctors</a></li>
+                <li><a class="a1 a2" href="../mainuis/contact_us.php">Hospitals</a></li>
                 <li><a class="a1 a2" href="../mainuis/contact_us.php">Contact Us</a></li>
                 <li><a class="a1 a2" href="../mainuis/login.php">Log In</a></li>
                 <li><a class="a1 signup" href="../mainuis/signup.php">Sign Up</a></li>
