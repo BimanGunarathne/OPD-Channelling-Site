@@ -13,7 +13,7 @@
     <?php include '../includes/navbar.php' ?>
     <header>
         <div class="section1">
-            <h1 class="main">Add Apointment</h1>
+            <h1 class="main">Add Appointments</h1>
             <div class="section-content">
                 <div class="appintment-form">
                     <h3>Please fill the forme</h3>
@@ -41,6 +41,7 @@
                     </select>
                     <input type="date">
                     <button>Add Appintment</button>
+                    <button>Update Appintment</button>
                 </div>
                 <div class="details">
                     <div class="d-details">
@@ -55,6 +56,46 @@
                         <button>Learn More</button>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="section2">
+            <h1 class="main2">View Appointments</h1>
+            <div class="table-content">
+                <table>
+                    <tr>
+                        <td>Hospital</td>
+                        <td>Name</td>
+                        <td>Date</td>
+                        <td><select name="status" id="">
+                                <option value="1">Status</option>
+                                <option value="1">Done</option>
+                                <option value="0">Pending</option>
+                            </select></td>
+                        <td><Button>View & Update</Button></td>
+                    </tr>
+                    <tr>
+                        <td>Hospital</td>
+                        <td>Name</td>
+                        <td>Date</td>
+                        <td><select name="status" id="">
+                                <option value="1">Status</option>
+                                <option value="1">Done</option>
+                                <option value="0">Pending</option>
+                            </select></td>
+                        <td><Button>View & Update</Button></td>
+                    </tr>
+                    <tr>
+                        <td>Hospital</td>
+                        <td>Name</td>
+                        <td>Date</td>
+                        <td><select name="status" id="">
+                                <option value="1">Status</option>
+                                <option value="1">Done</option>
+                                <option value="0">Pending</option>
+                            </select></td>
+                        <td><Button>View & Update</Button></td>
+                    </tr>
+                </table>
             </div>
         </div>
     </header>

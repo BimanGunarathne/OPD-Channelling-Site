@@ -29,7 +29,7 @@
                         </div>
                     </div>
                 </li>
-                <li><a class="a1 a2" href="../php UI/contact_us.php">Contact Us</a></li>
+                <li><a class="a1 a2" href="../mainuis/contact_us.php">Contact Us</a></li>
                 <li><a class="a1 a2" href="../mainuis/login.php">Log In</a></li>
                 <li><a class="a1 signup" href="../mainuis/signup.php">Sign Up</a></li>
                 <a class="icon a1" href="javascript:void(0);" style="font-size:25px; color: #ffffff;" onclick="navFunction()">&#9776;</a>
