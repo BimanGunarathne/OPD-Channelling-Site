@@ -1,0 +1,63 @@
+@import "../uistyles/config";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $primery-color;
+    font-family: $font-stack;
+    line-height: 1.6;
+}
+
+img {
+    width: 100%;
+}
+
+.showcase {
+    .showcase-content {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    &-content {
+        .lottie-player {
+            width: 100%;
+            height: 700px;
+            padding-right: 150px;
+        }
+    }
+    .description {
+        width: 100%;
+        height: auto;
+        padding-left: 150px;
+        .btn-primary {
+            margin-top: 30px;
+            display: inline-block;
+            border: solid 2.5px $secondory-color;
+            border-radius: 35px;
+            background-color: $secondory-color;
+            color: $primery-color;
+            padding: 10px 25px;
+            &:hover {
+                background-color: $primery-color;
+                color: $secondory-color;
+            }
+        }
+    }
+    .description2 {
+        margin-top: 20px;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 1.2;
+    }
+}
+
+@import "../uistyles/mobile";
