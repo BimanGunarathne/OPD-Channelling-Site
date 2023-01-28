@@ -17,8 +17,7 @@ td {
 
 .admin_content {
     height: auto;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
     margin: 50px 100px;
     .admin_name {
         .admin_username {
@@ -29,9 +28,10 @@ td {
     .admin_section {
         width: 100%;
         display: block;
+        text-align: left;
         .admin_details {
-            width: 50%;
-            padding: 50px 0;
+            width: 100%;
+            padding: 100px;
             h3 {
                 width: 50%;
                 margin-top: 10px;
@@ -86,6 +86,20 @@ td {
             .red_buttion {
                 border: solid 2.5px #ff7961;
                 background-color: #ff7961;
+            }
+        }
+    }
+    .admin_table {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        Table {
+            margin-top: 50px;
+            width: 100%;
+            .tr {
+                color: $primery-color;
+                background: $secondory-color;
             }
         }
     }

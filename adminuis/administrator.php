@@ -63,7 +63,7 @@
                 <h2>Administartors</h2>
             </div>
             <Table>
-                <tr>
+                <tr class="tr">
                     <td class="bg">Admin ID</td>
                     <td class="bg">First Name</td>
                     <td class="bg">Last Name</td>
