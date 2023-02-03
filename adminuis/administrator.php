@@ -58,29 +58,6 @@
                 </div>
             </div>
         </div>
-        <div class="admin_table">
-            <div class="admin_h1">
-                <h2>Administartors</h2>
-            </div>
-            <Table>
-                <tr class="tr">
-                    <td class="bg">Admin ID</td>
-                    <td class="bg">First Name</td>
-                    <td class="bg">Last Name</td>
-                    <td class="bg">NIC</td>
-                    <td class="bg">Contact</td>
-                    <td class="bg">Email</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Biman</td>
-                    <td>Gunarathne</td>
-                    <td>200016403180</td>
-                    <td>0771144033</td>
-                    <td>bimangunarathne@gmail.com</td>
-                </tr>
-            </Table>
-        </div>
     </div>
     <?php include '../includes/footer2.php' ?>
 </body>
