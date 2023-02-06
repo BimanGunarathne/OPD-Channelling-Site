@@ -154,6 +154,30 @@
     }
 }
 
+@media (max-width: 1150px) {
+    .admin_content {
+        width: 100%;
+        margin: 0;
+        padding: 20px 30px;
+        .admin_area {
+            display: block;
+            .admin_section {
+                width: 100%;
+                .admin_details {
+                    padding: 20px 0px;
+                    margin: 0px;
+                }
+            }
+            .admins {
+                width: 100%;
+                overflow: hidden;
+                margin: 0;
+                padding: 10px 20px;
+            }
+        }
+    }
+}
+
 @media (max-width: 375px) {
     .user_container {
         margin: 0;
