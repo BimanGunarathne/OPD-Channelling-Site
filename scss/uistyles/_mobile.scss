@@ -170,9 +170,11 @@
             }
             .admins {
                 width: 100%;
-                overflow: hidden;
                 margin: 0;
                 padding: 10px 20px;
+                tr {
+                    border-bottom: solid 1px $secondory-color;
+                }
             }
         }
     }
