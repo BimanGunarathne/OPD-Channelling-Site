@@ -1,0 +1,113 @@
+@import "../uistyles/config";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: $primery-color;
+    font-family: $font-stack;
+    line-height: 1.6;
+}
+
+img {
+    width: auto;
+    height: 200px;
+}
+
+td {
+    height: 50px;
+    padding: 30px 60px;
+}
+
+.td-img {
+    padding: 0 60px;
+}
+
+tr {
+    border-bottom: 1px solid $secondory-color;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
+        position: relative;
+        width: 100%;
+        padding: 0 400px;
+        text-align: center;
+        margin: 50px;
+        h1 {
+            margin-bottom: 20px;
+        }
+        .search-container {
+            position: relative;
+            .search {
+                width: 100%;
+                overflow: hidden;
+                padding: 15px 20px;
+                margin: 8px 0;
+                border: solid 2px $secondory-color;
+                border-radius: 100px;
+                box-sizing: border-box;
+                font-size: 15px;
+                line-height: 1;
+            }
+            .search-button {
+                cursor: pointer;
+                position: absolute;
+                width: 10%;
+                right: 7px;
+                top: 14px;
+                bottom: 14px;
+                border: 0;
+                background: $secondory-color;
+                outline: none;
+                margin: 0;
+                color: $primery-color;
+                padding-top: 0;
+                border-radius: 100px;
+                z-index: 1;
+                .icon {
+                    width: 30px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
+
+.table-content {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        height: auto;
+        .add-button {
+            width: 200px;
+            float: right;
+            font-family: inherit;
+            background: $secondory-color;
+            color: $primery-color;
+            padding: 10px 20px;
+            border-radius: 50px;
+            &:hover {
+                cursor: pointer;
+                background: $primery-color;
+                border: 2px solid $secondory-color;
+                a {
+                    color: $secondory-color;
+                }
+            }
+        }
+    }
+}
+
+@import '../uistyles/mobile';
