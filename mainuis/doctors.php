@@ -29,7 +29,7 @@
                     <h2>Position</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto quaerat itaque unde quas reprehenderit, illo odit ullam quod quam. Ipsum sunt dolorum ipsam atque dolores quisquam fuga laudantium blanditiis.</p>
                 </td>
-                <td><button class="add-button" type="submit"><a href="add_appointments.php">Add Appointment</a></button></td>
+                <td><a class="submit" href="add_appointments.php"><button class="add-button" type="submit">Add Appointment</button></a></td>
             </tr>
             <tr>
                 <td>
@@ -37,7 +37,7 @@
                     <h2>Position</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto quaerat itaque unde quas reprehenderit, illo odit ullam quod quam. Ipsum sunt dolorum ipsam atque dolores quisquam fuga laudantium blanditiis.</p>
                 </td>
-                <td><button class="add-button" type="submit">Add Appointment</button></td>
+                <td><a class="submit" href="add_appointments.php"><button class="add-button" type="submit">Add Appointment</button></a></td>
             </tr>
             <tr>
                 <td>
@@ -45,7 +45,7 @@
                     <h2>Position</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita iusto quaerat itaque unde quas reprehenderit, illo odit ullam quod quam. Ipsum sunt dolorum ipsam atque dolores quisquam fuga laudantium blanditiis.</p>
                 </td>
-                <td><button class="add-button" type="submit">Add Appointment</button></td>
+                <td><a class="submit" href="add_appointments.php"><button class="add-button" type="submit">Add Appointment</button></a></td>
             </tr>
         </table>
     </div>

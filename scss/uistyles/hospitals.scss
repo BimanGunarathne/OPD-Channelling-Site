@@ -102,12 +102,10 @@ tr {
                 cursor: pointer;
                 background: $primery-color;
                 border: 2px solid $secondory-color;
-                a {
-                    color: $secondory-color;
-                }
+                color: $secondory-color;
             }
         }
     }
 }
 
-@import '../uistyles/mobile';
+@import "../uistyles/mobile";
